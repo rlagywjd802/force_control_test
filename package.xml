@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>force_control_test</name>
+  <version>0.0.0</version>
+  <description>The force_control_test package</description>
+  <maintainer email="hj@todo.todo">hj</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- <build_depend>libpoco-dev</build_depend>
+  <build_depend>eigen</build_depend>
+  <build_depend>libfranka</build_depend> -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>icra18</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <!-- <exec_depend>libpoco-dev</exec_depend> -->
+  <!-- <exec_depend>libfranka</exec_depend> -->
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>icra18</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>
